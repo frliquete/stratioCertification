@@ -1,0 +1,2 @@
+CREATE TABLE `risk_scoring_data_ok`  as 
+select * from risk_scoring  where 1=2

@@ -1,0 +1,9 @@
+CREATE TABLE `ext_int_list` (`ID` INT
+ `LegalCase` INT
+ `FraudSuspicion` INT
+ `PoliceReport` INT
+ `ContactAudit` INT
+ `UkvCheck` INT
+ `AddressFraudCheck` INT) USING CSV OPTIONS ( `header` 'true'
+ `inferschema` 'true'
+ path 'hdfs://tenantproducer-hdfs-retail/use-cases/risk-scoring/csv/external_list.csv' ) 

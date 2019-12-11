@@ -1,0 +1,5 @@
+    CREATE TABLE clientriskadmissiondecision USING com.stratio.crossdata.connector.postgresql OPTIONS 
+           (url 'jdbc:postgresql://tenantproducer-poolretail.tenantproducer.marathon.mesos:5432/external', 
+            dbtable 'external.clientriskadmissiondecision', 
+            stratiosecurity 'true', 
+            stratiosecuritymode 'tls)
